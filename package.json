@@ -1,6 +1,6 @@
 {
     "name": "css-shortcut",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Package of shortened css properties for small projects",
     "main": "index.min.css",
     "style": "index.min.css",
