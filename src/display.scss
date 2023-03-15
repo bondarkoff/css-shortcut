@@ -1,0 +1,102 @@
+// Display
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inblock {
+    display: inline-block;
+}
+
+.d-inflex {
+    display: inline-flex;
+}
+
+// Justify-content
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcfe {
+    justify-content: flex-end;
+}
+
+// Align-items
+.aic {
+    align-items: center;
+}
+
+.aie {
+    align-items: end;
+}
+
+.ais {
+    align-items: start;
+}
+
+// Flex
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.flex {
+    flex: 1;
+}
+
+.flex-wrap {
+    flex: wrap;
+}
+
+// Margin
+.m-center {
+    margin: 0 auto;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+// Position
+.pos-a {
+    position: absolute;
+}
+
+.pos-r {
+    position: relative;
+}
+
+.pos-static {
+    position: static;
+}
+
+.pos-sticky {
+    position: sticky;
+}
+
+// Other
+.c-p {
+    cursor: pointer;
+}
