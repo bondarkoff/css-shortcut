@@ -91,3 +91,48 @@ Padding from 1 to 50 pixels.
 | pos-a      | position: absolute;             |
 | pos-static | position: static;               |
 | pos-sticky | position: sticky;               |
+
+### Text
+
+| Class     | Value                                                |
+| --------- | ---------------------------------------------------- |
+| tac       | text-align: center;                                  |
+| ttc       | text-transform: capitalize;                          |
+| ttu       | text-transform: uppercase;                           |
+| ttl       | text-transform: lowercase;                           |
+| tdn       | text-decoration: none;                               |
+| tdu       | text-decoration: uderline;                           |
+| td-dash   | text-decoration: dashed;                             |
+| td-dot    | text-decoration: dotted;                             |
+| td-double | text-decoration: double;                             |
+
+### Font-Weight
+
+| Class    | Value                  |
+| -------- | ---------------------- |
+| fw100    | font-weight: 100;      |
+| fw200    | font-weight: 200;      |
+| fw300    | font-weight: 300;      |
+| fw400    | font-weight: 400;      |
+| fw500    | font-weight: 500;      |
+| fw600    | font-weight: 600;      |
+| fw700    | font-weight: 700;      |
+| fw800    | font-weight: 800;      |
+| fw900    | font-weight: 900;      |
+| fwbold   | font-weight: bold;     |
+| fwnormal | font-weight: normal;   |
+
+### Opacity
+
+| Class | Value         |
+| ----- | ------------- |
+| op-1  | opacity: 0.1; |
+| op-2  | opacity: 0.2; |
+| op-3  | opacity: 0.3; |
+| op-4  | opacity: 0.4; |
+| op-5  | opacity: 0.5; |
+| op-6  | opacity: 0.6; |
+| op-7  | opacity: 0.7; |
+| op-8  | opacity: 0.8; |
+| op-9  | opacity: 0.9; |
+| op-10 | opacity: 1;   |
