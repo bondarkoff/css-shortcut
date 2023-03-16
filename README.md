@@ -6,7 +6,7 @@ YARN: `yarn add css-shortcut`
 
 ## Usage
 
-Install package with NPM.
+Install package with NPM or Yarn.
 
 ### SASS/SCSS import
 
