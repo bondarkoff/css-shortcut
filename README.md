@@ -2,6 +2,8 @@
 
 NPM: `npm install css-shortcut`
 
+YARN: `yarn add css-shortcut`
+
 ## Usage
 
 Install package with NPM.
@@ -136,3 +138,13 @@ Padding from 1 to 50 pixels.
 | op-8  | opacity: 0.8; |
 | op-9  | opacity: 0.9; |
 | op-10 | opacity: 1;   |
+
+### Other
+
+| Class | Value                                                                                                        |
+| ----- | ------------------------------------------------------------------------------------------------------------ |
+| clear | Clears the base styles that the browser sets for: `<a>, <ul>, <li>`. And removed margins for all `<h>` tags. Also for all (*) other elements: `box-sizing: border-box; outline: none`                                      |
+| c-p   | cursor: pointer |
+
+
+
