@@ -46,7 +46,7 @@ Margin from 1 to 50 pixels.
 | m\*-7  | margin-\*: 7px;   |
 | m\*-8  | margin-\*: 8px;   |
 | m\*-9  | margin-\*: 9px;   |
-| m\*-10 | margin-\*: 50px;  |
+| m\*-10 | margin-\*: 10px;  |
 | etc.   | etc. (up to 50px) |
 
 ### Padding
@@ -64,7 +64,7 @@ Padding from 1 to 50 pixels.
 | p\*-7  | padding-\*: 7px;  |
 | p\*-8  | padding-\*: 8px;  |
 | p\*-9  | padding-\*: 9px;  |
-| p\*-10 | padding-\*: 50px; |
+| p\*-10 | padding-\*: 10px; |
 | etc.   | etc. (up to 50px) |
 
 ### Flex, display
