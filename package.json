@@ -1,25 +1,35 @@
 {
-    "name": "css-shortcut",
-    "version": "1.0.6",
-    "description": "Package of shortened css properties for small projects",
-    "main": "index.min.css",
-    "style": "index.min.css",
-    "filename": "index.min.css",
-    "scripts": {
-        "build": "gulp build",
-        "watch": "gulp watch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/bondarkoff/css-shortcut.git"
-    },
-    "keywords": [
-        "css-shortcut"
-    ],
-    "author": "bondarkoveg",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/bondarkoff/css-shortcut/issues"
-    },
-    "homepage": "https://github.com/bondarkoff/css-shortcut#readme"
+  "name": "css-shortcut",
+  "version": "1.0.9",
+  "description": "Package of shortened css properties for small projects",
+  "main": "index.min.css",
+  "style": "index.min.css",
+  "filename": "index.min.css",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondarkoff/css-shortcut.git"
+  },
+  "keywords": [
+    "css-shortcut"
+  ],
+  "author": "bondarkoveg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondarkoff/css-shortcut/issues"
+  },
+  "homepage": "https://github.com/bondarkoff/css-shortcut#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^8.0.0",
+    "rollup": "^3.19.1"
+  },
+  "devDependencies": {
+    "sass": "^1.59.3"
+  }
 }
