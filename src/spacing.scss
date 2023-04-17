@@ -5,6 +5,7 @@ $sides: (
     'left': 'l',
 );
 
+// Margin and padding
 @each $side, $letter in $sides {
     @for $px from 1 through 50 {
         .m#{$letter}-#{$px * 1} {
@@ -22,5 +23,37 @@ $sides: (
         .p-#{$px * 1} {
             padding: #{$px * 1}px !important;
         }
+    }
+}
+
+// Top, right, left, bottom pixels
+@for $px from 1 through 50 {
+    .top-#{$px * 1} {
+        top: #{$px * 1}px !important;
+    }
+    .right-#{$px * 1} {
+        right: #{$px * 1}px !important;
+    }
+    .left-#{$px * 1} {
+        left: #{$px * 1}px !important;
+    }
+    .bottom-#{$px * 1} {
+        bottom: #{$px * 1}px !important;
+    }
+}
+
+// Top, right, left, bottom percentage
+@for $percentage from 1 through 10 {
+    .top-p#{$percentage * 10} {
+        top: #{$percentage * 10%} !important;
+    }
+    .bottom-p#{$percentage * 10} {
+        bottom: #{$percentage * 10%} !important;
+    }
+    .right-p#{$percentage * 10} {
+        right: #{$percentage * 10%} !important;
+    }
+    .left-p#{$percentage * 10} {
+        left: #{$percentage * 10%} !important;
     }
 }
