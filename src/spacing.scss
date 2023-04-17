@@ -27,7 +27,7 @@ $sides: (
 }
 
 // Top, right, left, bottom pixels
-@for $px from 1 through 50 {
+@for $px from 0 through 50 {
     .top-#{$px * 1} {
         top: #{$px * 1}px !important;
     }
@@ -43,7 +43,7 @@ $sides: (
 }
 
 // Top, right, left, bottom percentage
-@for $percentage from 1 through 10 {
+@for $percentage from 0 through 10 {
     .top-p#{$percentage * 10} {
         top: #{$percentage * 10%} !important;
     }

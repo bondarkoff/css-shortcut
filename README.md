@@ -67,6 +67,53 @@ Padding from 1 to 50 pixels.
 | p\*-10 | padding-\*: 10px; |
 | etc.   | etc. (up to 50px) |
 
+### Top, right, bottom, left
+
+Top, right, bottom, left from 0 to 50 in pixels.
+
+| Class     | Value         |
+| --------- | ------------- |
+| top-0     | top: 0px;     |
+| top-2     | top: 2px;     |
+| top-50    | top: 50px;    |
+| right-0   | right: 0px;   |
+| right-2   | right: 2px;   |
+| right-50  | right: 50px;  |
+| left-0    | left: 0px;    |
+| left-2    | left: 2px;    |
+| left-50   | left: 50px;   |
+| bottom-0  | bottom: 0px;  |
+| bottom-2  | bottom: 2px;  |
+| bottom-50 | bottom: 50px; |
+| etc.      | etc.          |
+
+Top, right, bottom, left in percentage 0 to 100 in 10 steps.
+
+| Class       | Value         |
+| ----------- | ------------- |
+| top-p0      | top: 0%;      |
+| top-p20     | top: 20%;     |
+| top-p100    | top: 100%;    |
+| right-p0    | right: 0%;    |
+| right-p20   | right: 20%;   |
+| right-p100  | right: 100%;  |
+| bottom-p0   | bottom: 0%;   |
+| bottom-p20  | bottom: 20%;  |
+| bottom-p100 | bottom: 100%; |
+| left-p0     | left: 0%;     |
+| left-p20    | left: 20%;    |
+| left-p100   | left: 100%;   |
+| etc.        | etc.          |
+
+### For Example:
+
+| Classname                  | Value                                                         |
+| -------------------------- | ------------------------------------------------------------- |
+| `top-p50 right-p100`       | `top: 50%; right: 100%;`                                      |
+| `bottom-p0`                | `bottom: 0%;`                                                 |
+| `left-50`                  | `left: 50px;`                                                 |
+| `top-p70 left-15 bottom-1` | `padding-right: 10px; margin-top: 15px; margin-bottom: 15px;` |
+
 ### Flex, display
 
 | Класс      | Значение                        |
@@ -96,33 +143,35 @@ Padding from 1 to 50 pixels.
 
 ### Text
 
-| Class     | Value                                                |
-| --------- | ---------------------------------------------------- |
-| tac       | text-align: center;                                  |
-| ttc       | text-transform: capitalize;                          |
-| ttu       | text-transform: uppercase;                           |
-| ttl       | text-transform: lowercase;                           |
-| tdn       | text-decoration: none;                               |
-| tdu       | text-decoration: uderline;                           |
-| td-dash   | text-decoration: dashed;                             |
-| td-dot    | text-decoration: dotted;                             |
-| td-double | text-decoration: double;                             |
+| Class     | Value                       |
+| --------- | --------------------------- |
+| tac       | text-align: center;         |
+| ttc       | text-transform: capitalize; |
+| ttu       | text-transform: uppercase;  |
+| ttl       | text-transform: lowercase;  |
+| tdn       | text-decoration: none;      |
+| tdu       | text-decoration: uderline;  |
+| td-dash   | text-decoration: dashed;    |
+| td-dot    | text-decoration: dotted;    |
+| td-double | text-decoration: double;    |
+| white     | color: white;               |
+| black     | color: black;               |
 
 ### Font-Weight
 
-| Class    | Value                  |
-| -------- | ---------------------- |
-| fw100    | font-weight: 100;      |
-| fw200    | font-weight: 200;      |
-| fw300    | font-weight: 300;      |
-| fw400    | font-weight: 400;      |
-| fw500    | font-weight: 500;      |
-| fw600    | font-weight: 600;      |
-| fw700    | font-weight: 700;      |
-| fw800    | font-weight: 800;      |
-| fw900    | font-weight: 900;      |
-| fwbold   | font-weight: bold;     |
-| fwnormal | font-weight: normal;   |
+| Class    | Value                |
+| -------- | -------------------- |
+| fw100    | font-weight: 100;    |
+| fw200    | font-weight: 200;    |
+| fw300    | font-weight: 300;    |
+| fw400    | font-weight: 400;    |
+| fw500    | font-weight: 500;    |
+| fw600    | font-weight: 600;    |
+| fw700    | font-weight: 700;    |
+| fw800    | font-weight: 800;    |
+| fw900    | font-weight: 900;    |
+| fwbold   | font-weight: bold;   |
+| fwnormal | font-weight: normal; |
 
 ### Opacity
 
@@ -139,12 +188,22 @@ Padding from 1 to 50 pixels.
 | op-9  | opacity: 0.9; |
 | op-10 | opacity: 1;   |
 
+### Z-index
+
+Z-index from 0 to 5.
+
+| Class | Value       |
+| ----- | ----------- |
+| z-0   | z-index: 0; |
+| z-1   | z-index: 1; |
+| z-2   | z-index: 2; |
+| z-3   | z-index: 3; |
+| z-4   | z-index: 4; |
+| z-5   | z-index: 5; |
+
 ### Other
 
-| Class | Value                                                                                                        |
-| ----- | ------------------------------------------------------------------------------------------------------------ |
-| clear | Clears the base styles that the browser sets for: `<a>, <ul>, <li>`. And removed margins for all `<h>` tags. Also for all (*) other elements: `box-sizing: border-box; outline: none`                                      |
-| c-p   | cursor: pointer |
-
-
-
+| Class | Value                                                                                                                                                                                  |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| clear | Clears the base styles that the browser sets for: `<a>, <ul>, <li>`. And removed margins for all `<h>` tags. Also for all (\*) other elements: `box-sizing: border-box; outline: none` |
+| c-p   | cursor: pointer                                                                                                                                                                        |
