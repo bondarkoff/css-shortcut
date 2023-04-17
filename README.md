@@ -1,3 +1,8 @@
+
+[![BuyMeACoffee](https://user-images.githubusercontent.com/99820593/232435884-10ad52e3-a7e6-4b08-9053-9f261f6133fd.png)](https://www.buymeacoffee.com/bondarkoveg)
+
+### if you would like to support the development of the project, you can [Donate](https://www.buymeacoffee.com/bondarkoveg)
+
 ## Install
 
 NPM: `npm install css-shortcut`
