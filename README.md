@@ -18,6 +18,10 @@ Install package with NPM or Yarn.
 Open the main style file and import at the beginning `css-shortcut` from `node-modules` folder:
 `@import 'node_modules/css-shortcut/index.min.css';`
 
+### React import
+
+Open the main react file and at the beginning type `import 'css-shortcut'`
+
 ### How To Use
 
 Side => abbreviation:
