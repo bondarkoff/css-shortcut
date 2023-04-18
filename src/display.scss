@@ -1,18 +1,10 @@
 // Display
-.d-flex {
-    display: flex;
-}
-
-.d-grid {
-    display: grid;
-}
-
 .d-block {
     display: block;
 }
 
-.d-inblock {
-    display: inline-block;
+.d-flex {
+    display: flex;
 }
 
 .d-inflex {
@@ -34,6 +26,10 @@
 
 .jcfe {
     justify-content: flex-end;
+}
+
+.jcse {
+    justify-content: space-evenly;
 }
 
 // Align-items

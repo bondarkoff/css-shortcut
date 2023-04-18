@@ -1,4 +1,3 @@
-
 [![BuyMeACoffee](https://user-images.githubusercontent.com/99820593/232435884-10ad52e3-a7e6-4b08-9053-9f261f6133fd.png)](https://www.buymeacoffee.com/bondarkoveg)
 
 ### if you would like to support the development of the project, you can [Donate](https://www.buymeacoffee.com/bondarkoveg)
@@ -33,7 +32,7 @@ Side => abbreviation:
 
 ### For Example:
 
-| Classname           | Value                                                         |
+| Class               | Value                                                         |
 | ------------------- | ------------------------------------------------------------- |
 | `mr-12 mb-41`       | `margin-right: 12px; margin-bottom: 41px;`                    |
 | `m-25`              | `margin: 25px;`                                               |
@@ -116,7 +115,7 @@ Top, right, bottom, left in percentage 0 to 100 in 10 steps.
 
 ### For Example:
 
-| Classname                  | Value                                                         |
+| Class                      | Value                                                         |
 | -------------------------- | ------------------------------------------------------------- |
 | `top-p50 right-p100`       | `top: 50%; right: 100%;`                                      |
 | `bottom-p0`                | `bottom: 0%;`                                                 |
@@ -125,16 +124,15 @@ Top, right, bottom, left in percentage 0 to 100 in 10 steps.
 
 ### Flex, display
 
-| Класс      | Значение                        |
+| Class      | Value                           |
 | ---------- | ------------------------------- |
-| d-inblock  | display: inline-block;          |
 | d-inflex   | display: inline-flex;           |
 | d-flex     | display: flex;                  |
 | d-block    | display: block;                 |
-| d-grid     | display: grid;                  |
 | jcsb       | justify-content: space-between; |
 | jcsa       | justify-content: space-around;  |
 | jcc        | justify-content: center;        |
+| jcse       | justify-content: space-evenly;  |
 | aic        | align-items: center;            |
 | aie        | align-items: flex-end;          |
 | ais        | align-items: flex-start;        |
@@ -152,19 +150,16 @@ Top, right, bottom, left in percentage 0 to 100 in 10 steps.
 
 ### Text
 
-| Class     | Value                       |
-| --------- | --------------------------- |
-| tac       | text-align: center;         |
-| ttc       | text-transform: capitalize; |
-| ttu       | text-transform: uppercase;  |
-| ttl       | text-transform: lowercase;  |
-| tdn       | text-decoration: none;      |
-| tdu       | text-decoration: uderline;  |
-| td-dash   | text-decoration: dashed;    |
-| td-dot    | text-decoration: dotted;    |
-| td-double | text-decoration: double;    |
-| white     | color: white;               |
-| black     | color: black;               |
+| Class | Value                       |
+| ----- | --------------------------- |
+| tac   | text-align: center;         |
+| ttc   | text-transform: capitalize; |
+| ttu   | text-transform: uppercase;  |
+| ttl   | text-transform: lowercase;  |
+| tdn   | text-decoration: none;      |
+| tdu   | text-decoration: underline; |
+| white | color: #fff;                |
+| black | color: #000;                |
 
 ### Font-Weight
 
@@ -212,7 +207,6 @@ Z-index from 0 to 5.
 
 ### Other
 
-| Class | Value                                                                                                                                                                                  |
-| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| clear | Clears the base styles that the browser sets for: `<a>, <ul>, <li>`. And removed margins for all `<h>` tags. Also for all (\*) other elements: `box-sizing: border-box; outline: none` |
-| c-p   | cursor: pointer                                                                                                                                                                        |
+| Class | Value           |
+| ----- | --------------- |
+| c-p   | cursor: pointer |
